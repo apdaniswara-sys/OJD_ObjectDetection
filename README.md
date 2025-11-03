@@ -117,4 +117,5 @@ Developed by apdaniswara-sys
 This project is licensed under the MIT License — free for commercial and educational use.
 
 ❤️ Example Preview (Real Output)
-demo_preview.jpg
+![Demo Preview](demo_preview.jpg)
+
