@@ -104,6 +104,20 @@ cv2.destroyAllWindows()
 
 ---
 
+## 🧩 System Flow (YOLOv8 + OpenCV)
+
+```mermaid
+flowchart TD
+    A[🎥 Kamera / Webcam] --> B[📸 Ambil Frame (OpenCV)]
+    B --> C[🧠 YOLOv8 Model]
+    C --> D[🎯 Deteksi Objek & Label]
+    D --> E[🖼️ Tambahkan Bounding Box & Warna]
+    E --> F[💻 Tampilkan di Jendela OpenCV]
+    F -->|Tekan Q| G[⏹️ Hentikan Program]
+```
+
+---
+
 ## 🖼️ Demo Preview
 Below is an example visualization of the detection window and side panel:
 ![Demo Preview](assets/demo_preview.jpg)
