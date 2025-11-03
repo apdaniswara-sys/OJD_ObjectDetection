@@ -105,7 +105,6 @@ cv2.destroyAllWindows()
 ---
 
 ## 🧩 System Flow (YOLOv8 + OpenCV)
-Below is the process flow of real-time object detection and display.
 
 ```mermaid
 flowchart TD
@@ -116,6 +115,7 @@ flowchart TD
     E --> F[Display on OpenCV Window]
     F -->|Press Q| G[Stop Program]
 ```
+
 ---
 
 ## 🖼️ Demo Preview
