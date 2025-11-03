@@ -17,6 +17,8 @@ This repository contains a lightweight demo project for real-time object detecti
 
 ### 1️⃣ Clone Repository  
 ```bash
+##bash
+
 git clone https://github.com/apdaniswara-sys/OJD_ObjectDetection.git
 cd OJD_ObjectDetection
 ```
@@ -25,14 +27,19 @@ cd OJD_ObjectDetection
 
 ### 2️⃣ Create Virtual Environment
 ```bash
+##bash
 python -m venv env_obj_dtc
+
 # Windows PowerShell
 .\env_obj_dtc\Scripts\Activate.ps1
+
 # or cmd
 env_obj_dtc\Scripts\activate.bat
 ```
 If PowerShell blocks execution, run this first:
 ```powershell
+##powershell
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
@@ -41,6 +48,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### 3️⃣ Install Dependencies
 ```bash
+##bash
+
 pip install -r requirements.txt
 ```
 
@@ -48,6 +57,8 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run Detection Demo
 ```bash
+##bash
+
 python src/camera_object_count.py
 ```
 Press q to quit the camera window.
@@ -56,6 +67,8 @@ Press q to quit the camera window.
 
 ## 🗂️ Project Structure
 ```bash
+##Plain Text
+
 OJD_ObjectDetection/
 │
 ├── requirements.txt
@@ -76,6 +89,8 @@ OJD_ObjectDetection/
 
 ## 🧠 How It Works
 ```bash
+##bash
+
 from ultralytics import YOLO
 import cv2
 
@@ -104,12 +119,16 @@ Below is an example visualization of the detection window and side panel:
 ---
 
 ## 🧩 Notes
-The model yolov8n.pt will be automatically downloaded the first time it runs.
-Default resolution: 640x480 for performance balance.
-To use your own camera index, edit line in camera_object_count.py:
+- The model yolov8n.pt will be automatically downloaded the first time it runs.
+- Default resolution: 640x480 for performance balance.
+- To use your own camera index, edit line in camera_object_count.py:
 ```bash
+##bash
+
 cap = cv2.VideoCapture(0)
 ```
+
+---
 
 ### 🛠️ Author
 Created by apdaniswara-sys (Muizz)
