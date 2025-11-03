@@ -114,7 +114,7 @@ cv2.destroyAllWindows()
 ## 🖼️ Demo Preview
 Below is an example visualization of the detection window and side panel:
 
-![Demo Preview](assets\demo_preview.jpg)
+![Demo Preview](assets/demo_preview.jpg)
 
 ---
 
