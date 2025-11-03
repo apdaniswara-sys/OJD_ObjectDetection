@@ -33,89 +33,73 @@ OJD_ObjectDetection/
 │
 └── README.md
 
-
 ---
 
-## ⚙️ Installation & Quickstart
+## ⚙️ Installation & Quickstart  
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone Repository  
 ```bash
 git clone https://github.com/apdaniswara-sys/OJD_ObjectDetection.git
 cd OJD_ObjectDetection
+```
 
 ---
-#### 2️⃣ Create Virtual Environment
+
+### 2️⃣ Create Virtual Environment  
+```bash
 python -m venv env_obj_dtc
 # Windows PowerShell
 .\env_obj_dtc\Scripts\Activate.ps1
 # or cmd
 env_obj_dtc\Scripts\activate.bat
+```
+
+If PowerShell blocks execution, run:
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
 ---
-#### 3️⃣ Install Dependencies
-pip install -r requirements.txt
 
-    4️⃣ Run Detection Demo
+### 3️⃣ Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Run Detection Demo  
+```bash
 python src/camera_object_count.py
-Press q to quit the camera window.
+```
+Press **q** to quit the camera window.
 
-🧩 How It Works
+---
 
-YOLOv8 (Ultralytics) detects objects in each video frame.
-OpenCV renders bounding boxes and class labels on the frame.
-A side panel dynamically displays:
-Unique object classes detected.
-Count of each detected object.
-Colored badges for clarity and style.
+### 🖼️ Example Preview  
+Below is a sample of how the real-time detection dashboard looks (with object boxes and side counter):
 
-Example flow:
-Camera Feed ───▶ YOLOv8 Detection ───▶ Annotated Frame
-                             │
-                             ▼
-                     Side Panel Summary
-
-
-🖼️ Demo Output (Preview)
-Below is a preview of what you’ll see when running the detection script:
-
-<p align="center"> <img src="demo_preview.jpg" width="600" alt="OJD_ObjectDetection demo preview"/> </p>
-
-✅ Detected objects are highlighted with bounding boxes.
-✅ The right-side panel shows color-coded class counts (e.g., "person: 2", "bottle: 1").
-✅ The interface is clean, with easy-to-read modern design.
-
-📦 Example Output (Console Log)
-[INFO] Model: yolov8n.pt
-[INFO] Camera started (640x480)
-[DETECT] Frame 34: person=2, bottle=1, chair=1
-[DETECT] Frame 35: person=2, bottle=1, chair=1
-
-🧠 Requirements
-| Package       | Version |
-| ------------- | ------- |
-| Python        | ≥ 3.9   |
-| ultralytics   | latest  |
-| opencv-python | ≥ 4.8   |
-| numpy         | ≥ 1.24  |
-
-Install automatically with:
-pip install -r requirements.txt
-
-🧰 Troubleshooting
-| Issue                                                | Cause                 | Fix                                                    |
-| ---------------------------------------------------- | --------------------- | ------------------------------------------------------ |
-| `ModuleNotFoundError: No module named 'ultralytics'` | Package not installed | Run `pip install ultralytics`                          |
-| Camera not opening                                   | Wrong camera index    | Edit `cv2.VideoCapture(0)` in `camera_object_count.py` |
-| Slow performance                                     | Weak GPU / CPU        | Lower camera resolution to 480×360 or use `yolov8n.pt` |
-
-🧑‍💻 Author
-
-Developed by apdaniswara-sys
-📬 GitHub Profile
-
-🪪 License
-This project is licensed under the MIT License — free for commercial and educational use.
-
-❤️ Example Preview (Real Output)
 ![Demo Preview](demo_preview.jpg)
 
+---
+
+### 🗂️ Files Overview  
+| File | Description |
+|------|--------------|
+| `src/camera_object_count.py` | Main real-time detection + counting script |
+| `src/utils/draw_utils.py` | Helper for drawing the side panel |
+| `main.py` | Simple entry point for launching the app |
+| `demo_preview.jpg` | Example screenshot of detection UI |
+| `requirements.txt` | Dependencies for running the project |
+| `.gitignore` | Ignore list (env, caches, etc.) |
+
+---
+
+### ⚙️ Notes  
+- The model `yolov8n.pt` will auto-download on first run.  
+- To stop camera stream, press `q`.  
+- For better performance, ensure your Python version ≥ 3.10.
+
+---
+
+⭐ **Tip:** Don’t forget to give this repo a star if you find it useful!  
