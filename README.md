@@ -9,10 +9,8 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ## 🚀 Features
 ✅ Real-time object detection from webcam (YOLOv8n model by default)  
 ✅ Right-side dashboard panel showing object class & total count  
-✅ Automatically downloads model weights on first run  
 ✅ Lightweight: optimized for 640×480 capture resolution  
-✅ Modular: `main.py` launcher and structured `src/` folder  
-✅ Fully open-source and easy to customize  
+
 
 ---
 
@@ -20,7 +18,6 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ```bash
 OJD_ObjectDetection/
 │
-├── main.py
 ├── requirements.txt
 ├── .gitignore
 │
@@ -29,11 +26,11 @@ OJD_ObjectDetection/
 │ ├── utils/
 │ │ └── draw_utils.py # helper for drawing side panel
 │
-├── assets/
-│ └── demo_preview.jpg # example output image
+├── demo_preview.jpg # example output image
 │
 └── README.md
 ```
+
 ---
 
 ## ⚙️ Installation & Quickstart  
