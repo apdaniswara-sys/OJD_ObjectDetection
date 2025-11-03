@@ -17,6 +17,7 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ---
 
 ## 🗂️ Project Structure
+```bash
 OJD_ObjectDetection/
 │
 ├── main.py
@@ -32,7 +33,7 @@ OJD_ObjectDetection/
 │ └── demo_preview.jpg # example output image
 │
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Quickstart  
