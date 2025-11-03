@@ -26,7 +26,7 @@ OJD_ObjectDetection/
 ├── .gitignore
 ├── requirements.txt
 ├── demo_preview.jpg # example output image
-└── README.md
+├── README.md
 └── yolov8n.pt
 ```
 
