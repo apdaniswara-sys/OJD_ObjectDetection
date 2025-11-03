@@ -35,7 +35,8 @@ OJD_ObjectDetection/
 ## ⚙️ Installation & Quickstart  
 
 ### 1️⃣ Clone Repository  
-```bash
+```bash #bash
+#bash
 git clone https://github.com/apdaniswara-sys/OJD_ObjectDetection.git
 cd OJD_ObjectDetection
 ```
@@ -52,7 +53,8 @@ env_obj_dtc\Scripts\activate.bat
 ```
 
 If PowerShell blocks execution, run:
-```powershell
+```powershell 
+#powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
@@ -60,6 +62,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### 3️⃣ Install Dependencies  
 ```bash
+#bash
 pip install -r requirements.txt
 ```
 
