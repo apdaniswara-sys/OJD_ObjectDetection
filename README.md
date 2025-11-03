@@ -15,13 +15,13 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ---
 
 ## 🗂️ Project Structure
-```bash
+```plaintext
 OJD_ObjectDetection/
 │
 ├── src/
 │ ├── camera_object_count.py # main detection + counting script
-│ ├── utils/
-│ │ └── draw_utils.py # helper for drawing side panel
+│ └── utils/
+│  └── draw_utils.py # helper for drawing side panel
 │
 ├── .gitignore
 ├── requirements.txt
