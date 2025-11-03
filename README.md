@@ -121,9 +121,9 @@ cap = cv2.VideoCapture(0)
 
 ---
 
-### 🛠️ Author
+## 🛠️ Author
 Created by apdaniswara-sys (Muizz)
-📅 Last Updated: November 2025
-📧 Contact: apdaniswara@gmail.com
+- 📅 Last Updated: November 2025
+- 📧 Contact: apdaniswara@gmail.com
 
 ⭐ If you find this project useful, please give it a star on GitHub!
