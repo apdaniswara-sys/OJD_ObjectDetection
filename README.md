@@ -43,14 +43,16 @@ OJD_ObjectDetection/
 git clone https://github.com/apdaniswara-sys/OJD_ObjectDetection.git
 cd OJD_ObjectDetection
 
-    2️⃣ Create Virtual Environment
+---
+#### 2️⃣ Create Virtual Environment
 python -m venv env_obj_dtc
 # Windows PowerShell
 .\env_obj_dtc\Scripts\Activate.ps1
 # or cmd
 env_obj_dtc\Scripts\activate.bat
 
-    3️⃣ Install Dependencies
+---
+#### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
     4️⃣ Run Detection Demo
