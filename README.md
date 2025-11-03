@@ -105,7 +105,6 @@ cv2.destroyAllWindows()
 ---
 
 ## 🧩 System Flow (YOLOv8 + OpenCV)
-
 ```mermaid
   flowchart TD
     A[Camera / Webcam] -->|Capture Frame| B(OpenCV)
@@ -115,6 +114,14 @@ cv2.destroyAllWindows()
     E --> F[Display on OpenCV Window]
     F -->|Press Q| G(Stop Program)
 ```
+🧩 Flowchart Explanation (YOLOv8 + OpenCV)
+- Camera / Webcam — Captures live video input.
+- OpenCV — Reads each frame from the camera.
+- YOLOv8 Model — Processes the frame and detects objects.
+- Detection Output — Identifies object types, positions, and confidence levels.
+- Drawing Step — Adds bounding boxes and labels with colors.
+- Display Window — Shows real-time detection results.
+- Stop (Q Key) — Exits the program and releases the camera.
 
 ---
 
