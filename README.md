@@ -15,7 +15,7 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ---
 
 ## 🗂️ Project Structure
-```plaintext
+```bash
 OJD_ObjectDetection/
 │
 ├── src/
