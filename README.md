@@ -107,13 +107,13 @@ cv2.destroyAllWindows()
 ## 🧩 System Flow (YOLOv8 + OpenCV)
 
 ```mermaid
-flowchart TD
-    A[Camera / Webcam] --> B[Capture Frame (OpenCV)]
+  flowchart TD
+    A[Camera / Webcam] -->|Capture Frame| B(OpenCV)
     B --> C[YOLOv8 Model]
     C --> D[Detect Objects & Labels]
     D --> E[Draw Bounding Boxes and Colors]
     E --> F[Display on OpenCV Window]
-    F -->|Press Q| G[Stop Program]
+    F -->|Press Q| G(Stop Program)
 ```
 
 ---
