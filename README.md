@@ -85,7 +85,6 @@ Below is a sample of how the real-time detection dashboard looks (with object bo
 |------|--------------|
 | `src/camera_object_count.py` | Main real-time detection + counting script |
 | `src/utils/draw_utils.py` | Helper for drawing the side panel |
-| `main.py` | Simple entry point for launching the app |
 | `demo_preview.jpg` | Example screenshot of detection UI |
 | `requirements.txt` | Dependencies for running the project |
 | `.gitignore` | Ignore list (env, caches, etc.) |
