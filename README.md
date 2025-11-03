@@ -18,17 +18,16 @@ This project includes a clean UI with a right-side panel displaying **class-wise
 ```bash
 OJD_ObjectDetection/
 │
-├── requirements.txt
-├── .gitignore
-│
 ├── src/
 │ ├── camera_object_count.py # main detection + counting script
 │ ├── utils/
 │ │ └── draw_utils.py # helper for drawing side panel
 │
+├── .gitignore
+├── requirements.txt
 ├── demo_preview.jpg # example output image
-│
 └── README.md
+└── yolov8n.pt
 ```
 
 ---
