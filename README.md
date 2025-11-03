@@ -52,3 +52,4 @@ Press `q` to quit the camera window.
 ## Notes
 - The `yolov8n.pt` model will be automatically downloaded by ultralytics the first time it runs.
 - If your machine is low on resources, use `yolov8n.pt` (default) which is light and fast.
+test
