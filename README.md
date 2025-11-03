@@ -13,16 +13,16 @@ and OpenCV, with a modern side-panel that counts detected objects by class.
 ## Quickstart
 1. Clone repository
 ```bash
-git clone https://github.com/<username>/OJD_ObjectDetection.git
+git clone https://github.com/apdaniswara-sys/OJD_ObjectDetection.git
 cd OJD_ObjectDetection
 ```
 2. Create virtual environment and activate it
 ```bash
-python -m venv env_npl
+python -m venv env_obj_dtc
 # Windows PowerShell
-.\env_npl\Scripts\Activate.ps1
+.\env_obj_dtc\Scripts\Activate.ps1
 # or cmd
-env_npl\Scripts\activate.bat
+env_obj_dtc\Scripts\activate.bat
 ```
 If PowerShell blocks execution, run:
 ```powershell
@@ -43,7 +43,6 @@ Press `q` to quit the camera window.
 
 ## Files
 - `src/camera_object_count.py` — main real-time detection + counting script
-- `src/main.py` — small launcher menu
 - `src/utils/draw_utils.py` — helper functions for drawing the side panel
 - `demo.png` — preview image (mockup) showing sample output
 - `requirements.txt` — minimal dependencies
@@ -52,4 +51,3 @@ Press `q` to quit the camera window.
 ## Notes
 - The `yolov8n.pt` model will be automatically downloaded by ultralytics the first time it runs.
 - If your machine is low on resources, use `yolov8n.pt` (default) which is light and fast.
-test
