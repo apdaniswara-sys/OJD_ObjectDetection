@@ -61,22 +61,23 @@ Press q to quit the camera window.
 ---
 
 ## 🗂️ Project Structure
-```bash
+```plaintext
 # Plain Text
 OJD_ObjectDetection/
 │
 ├── requirements.txt
 ├── .gitignore
+├── README.md
 │
 ├── src/
-│   ├── camera_object_count.py      # main detection + counting script
-│   └── utils/
-│       └── draw_utils.py           # helper for drawing side panel
+│   ├── camera_object_count.py       # main detection + counting script
+│   ├── utils/
+│   │   └── draw_utils.py            # helper for drawing side panel
 │
 ├── assets/
-│   └── demo_preview.jpg            # example output image
+│   └── demo_preview.jpg             # example output image
 │
-└── README.md
+└── DEV_SETUP.md                     # developer setup guide
 ```
 
 ---
