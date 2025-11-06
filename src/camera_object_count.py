@@ -2,6 +2,7 @@
 camera_object_count.py
 Real-time Object Detection + Counting using YOLOv8 + OpenCV
 Default resolution: 640x480
+env_obj_dtc (3.12.10)" is already selected as the environment for: "OJD_Training"
 """
 
 from ultralytics import YOLO
